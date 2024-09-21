@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container{
+    padding: 10px;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(232, 189, 161, 0.429), rgba(123, 120, 125, 0.58)
+    ) no-repeat fixed center/cover;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Heading{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 4px 4px 6px rgba(11, 11, 11, 0.5);
+}
+
+.card{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.profile-main{
+    box-shadow: 5px, 6px, 10px, rgba(0, 0, 0, 0.5);
+}
+
+.profile-heading{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    
+}
+
+.profile-heading h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(134, 126, 126);
+    font-size: 30px;
+}
+img{
+    padding-top: 15px;
+}
+
+.profile-link{
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease-in-out;
+}
+.profile-link:hover{
+    transform: scale(1.1);
+}
